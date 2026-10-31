@@ -1,5 +1,5 @@
 # Java Cheat Sheet
-※Java初学者のチートシートです
+※Java初学者のチートシートです<br>
 ※Claude Codeと壁打ちしながらやっています。時折調べていますがもしかしたらハルシネーションを起こしている可能性もあります、ご注意ください。
 
 ## Directory structure
@@ -53,16 +53,17 @@ java/
     .venv\Scripts\jupyter kernelspec install <解凍したフォルダ> --user --name=java
     .venv\Scripts\jupyter kernelspec list   # java が出ればOK
     ```
+
 5. VS Codeで動作確認
     1. `notebooks/`に`.ipynb`ファイルを作る
     2. 右上の「Select Kernel」→「Jupyter Kernel」→「Java(jjava)」
-    3. セルを実行 # `Shift + Enter` or `左のボタン`
-   ```java
-   var list = new ArrayList<String>(List.of("b", "a", "c"));
-   Collections.sort(list);
-   list
-   ```
-   [a,b,c](notebooks\test.ipynb)と出れば成功
+    3. セルを実行（`Shift + Enter` or 左のボタン）
+    ```java
+    var list = new ArrayList<String>(List.of("b", "a", "c"));
+    Collections.sort(list);
+    list
+    ```
+    [a, b, c](notebooks/test.ipynb)と出れば成功
 
 ## 注意点
 - VS CodeのJava拡張はJDK 21以上が必要で、今後25以上に上がる予定。LTSの25を使っておけば安全
