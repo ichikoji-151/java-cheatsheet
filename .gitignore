@@ -1,0 +1,4 @@
+.venv/
+bin/
+out/
+.ipynb_checkpoints/
